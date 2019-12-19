@@ -1,0 +1,26 @@
+function setup() {
+  createCanvas(500, 500)
+}  
+ 
+function draw() {
+  background("black");
+  
+  if (keyIsPressed) {
+  textSize(30);
+  textAlign("center")
+  text("Robert dum dum", 250, 250);
+    fill("white");
+  textSize(10);
+  text("lol xd xd Robert dum dum", 250, 480);
+  fill("white");
+  text("stoopid", 250, 20);
+    fill("white");
+    
+  } else {
+    background("black");
+    textSize(7.5);
+    text("PRESS ANY KEY", 250, 250);
+    fill("white")
+    textAlign("center")
+  }
+}
